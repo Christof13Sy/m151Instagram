@@ -1,0 +1,16 @@
+<% if flash.any? %>
+  <script type="text/javascript">
+    <% flash.each do |key, value| %>
+      <% type = key.to_s.gsub('alert', 'error').gsub('notice', 'success') %>
+      toastr.<%= type %>('<%= value %>')
+    <% end %>
+  </script>
+<% end %>
+
+<% if defined?(resource) && resource.errors.any? %>
+  <script type="text/javascript">
+    <% resource.errors.full_messages.each do |msg| %>
+      toastr.error('<%= msg %>');
+    <% end %>
+  </script>
+<% end %>
