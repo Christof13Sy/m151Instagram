@@ -9,7 +9,6 @@
 # production:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
-  //TODO Cloudname add
-  cloudinary_cloud_name: ""
-  cloudinary_api_key: ""
-  cloudinary_api_secret: ""
+  cloudinary_cloud_name: "dxpvn4fv1"
+  cloudinary_api_key: "879959975731949"
+  cloudinary_api_secret: "7Zv7z3DjoiQ8S6PfUILeaU4gTQI"
