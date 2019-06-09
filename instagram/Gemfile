@@ -79,3 +79,6 @@ gem 'cloudinary'
 
 #Verschlüsseln https://github.com/laserlemon/figaro
 gem 'figaro'
+
+#Image Dropzone
+gem 'dropzonejs-rails'
