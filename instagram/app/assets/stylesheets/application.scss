@@ -363,6 +363,29 @@ img {
   @extend .love;
   background-position:  -353px -273px;
 }
+
+.comment-list {
+height: 310px;
+overflow: auto;
+}
+.post-show-img {
+background-color: #fafafa;
+margin: -10px 0;
+}
+
+.delete-post-icon {
+  color: #262626;
+  font-size: 20px;
+}
+
+.delete-comment{
+  width: 11px;
+  height: 11px;
+  background-position: -216px -112px;
+  float: right;
+  margin: 5px 0 0 10px;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

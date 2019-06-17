@@ -29,8 +29,18 @@ class PostsController < ApplicationController
   end
 
   def destroy
-
+    if @post.user == current_user
+      if @post.destroy
+        flash[:notice] = "Post deleted!"
+      else
+        flash[:alert] = "Something went wrong..."
+      end
+    else
+      flash[:alert] = "You don't have the permission to delete this post!"
+    end
+    redirect_to root_path
   end
+
 
   private
 
