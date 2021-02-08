@@ -72,7 +72,7 @@ gem 'jquery-rails'
 gem 'toastr-rails'
 
 #carrierwave https://github.com/carrierwaveuploader/carrierwave
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 
 #Cloud
 gem 'cloudinary'
